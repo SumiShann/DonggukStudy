@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.hero{
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  list-style-type: none;
+  margin-top: 70px;
+  li{
+    width: 80%;
+    margin: auto;
+  }
+}

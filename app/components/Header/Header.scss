@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+.header{
+  h1{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  height: 130px;
+  width: 100%;
+  padding-block-start: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $clr-prim;
+}

@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+.search{
+  form{
+    text-align: center;
+    margin-top: 40px;
+    #word{
+      height: 50px;
+      width: 60%;
+      font-size: medium;
+      text-indent: 20px;
+      border-radius: 50px;
+      border: 2px solid $clr-sec;
+      background-color: lighten($clr-sec, 45%);
+      &:focus-visible{
+        border-color: $clr-tert;
+      } 
+    }
+  }
+}
