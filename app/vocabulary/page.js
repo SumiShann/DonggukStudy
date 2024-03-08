@@ -8,10 +8,10 @@ export default function Vocabulary(){
     <Header heading="Vocabulary" />
     <main>
       <Links>
-        <Button path="" link="BY SEMESTER" />
-        <Button path="" link="BY THEME" />
-        <Button path="" link="VERBS ONLY" />
-        <Button path="" link="NOUNS ONLY" />
+        <Button path="/vocabulary/by-semester" link="BY SEMESTER" />
+        <Button path="/vocabulary/by-theme" link="BY THEME" />
+        <Button path="/vocabulary/verbs-only" link="VERBS ONLY" />
+        <Button path="/vocabulary/nouns-only" link="NOUNS ONLY" />
       </Links>
     </main>
     </>

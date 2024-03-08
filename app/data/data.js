@@ -1,6 +1,4 @@
 const data = [
-  {
-    trim1:
       {
         set1:[
           {
@@ -47,9 +45,11 @@ const data = [
         set7:[
         ],
         set8:[
-            
-        ]
+        ],
+      },
+      {
+        set1:[],
+        set2:[]
       }
-  }
 ]
 export default data;
